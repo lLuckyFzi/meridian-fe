@@ -16,11 +16,9 @@ function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  console.log(menuOpen);
 
   useEffect(() => {
     const handleScrolled = () => {
-      console.log("ScrollY:", window.scrollY);
       setScrolled(window.scrollY > 70);
     };
 
