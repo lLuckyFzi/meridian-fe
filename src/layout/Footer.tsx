@@ -40,7 +40,7 @@ function Footer() {
             <span>
               marketing@bikinpeta.com
             </span>
-            <span className="cursor-pointer" onClick={handleWhatsAppAction}>(+62) 819-4778-8882</span>
+            <span className="cursor-pointer" onClick={handleWhatsAppAction}>(+62) 815-7381-8878</span>
           </div>
         </div>
       </div>
